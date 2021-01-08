@@ -255,7 +255,6 @@ const DashboardProjectCard = () => {
                       });
                     }}
                     onClick={() => {
-                      console.log('clicked');
                       setCardClass(classes.projectSm);
                       setBtnClass(classes.projectbtnSm);
                       projects_data.forEach((project_data: Project) => {
